@@ -1,0 +1,30 @@
+.Popcorn {
+    background-image: url("./popcorn.jpeg");
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Popcorn-text {
+    background-color: red;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 1em 5em;
+    border-radius: 5px;
+    margin-bottom: 2em;
+}
+
+.Popcorn-back-button a {
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: #333333;
+    padding: 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+}
+

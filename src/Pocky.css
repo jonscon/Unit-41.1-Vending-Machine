@@ -1,0 +1,34 @@
+.Pocky {
+    background-image: url("./pocky.jpeg");
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Pocky-text {
+    background-color: pink;
+    color: hotpink;
+    text-align: center;
+    font-weight: bold;
+    padding: 1em 5em;
+    border-radius: 5px;
+    margin-bottom: 2em;
+}
+
+.Pocky-back-button a {
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: #333333;
+    padding: 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+}
+
+.Pocky-back-button a:hover {
+    text-shadow: 1px 1px 5px gray;
+}
+
